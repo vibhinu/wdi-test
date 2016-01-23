@@ -1,0 +1,74 @@
+<html>
+<head>
+<script type="text/JavaScript" src="vib.js">
+</script>
+<title>test</title>
+<h1><center>WireDelta</center></h1>
+</head>
+<body style="background-color:#C0C0C0">
+
+
+<br>
+
+
+
+<!-- Task 1 -->
+ <div id="main" name="main">
+
+ <h3 style="color:#0000FF"><u><i>THE AGE CALCULATOR</i></u></h3>
+ 
+<p>Birth Year :
+    <input type="text" name="birthYear" id="birthYear"   />
+   Current Year :
+    <input type="text" name="currentYear" id="currentYear"   />
+</p><br>
+<input type="button"   value="Calculate Age" onClick="calAge(document.getElementById('birthYear').value,document.getElementById('currentYear').value);" />
+</div>
+
+
+
+
+<!--Task 2-->
+<div id="tk1_r" name="tk1_r">
+<h3 style="color:#0000FF"><u><i>THE LIFETIME SUPPLY CALCULATOR</i></u></h3>
+ 
+<p>Age :
+    <input type="text" name="age" id="age"   />
+   Snacks /Day :
+    <input type="text" name="amount" id="amount"   />
+</p><br />
+<input type="button"  value="Calculate Snacks" onClick="calSupply(document.getElementById('age').value,document.getElementById('amount').value);" />
+</div>
+
+
+
+
+<!--Task 3-->
+ 
+<h3 style="color:#0000FF"><U><i>THE GEOMETRIZER</i></u></h3>
+ 
+<p>Radius of a Circle :
+    <input type="text" name="radius" id="radius" maxlength="4"   />
+</p> <br />
+<input type="button"   value="Calculate Area" onClick="calArea(document.getElementById('radius').value);" />
+
+<input type="button"  value="Calculate Circumference" onClick="calcCircumfrence(document.getElementById('radius').value);" />
+ 
+</div>
+
+
+
+<h3 style="color:#0000FF"><u><i>THE TEMPERATURE CONVERTER</i></u></h3>
+ 
+<p>Temperature :
+    <input type="text" name="temperature" id="temperature"   />
+</p><br />
+<input type="button" value="°C to °F" onClick="celsiusToFahrenheit(document.getElementById('temperature').value);" />
+
+<input type="button"   value="°F to °C" onClick="fahrenheitToCelsius(document.getElementById('temperature').value);" />
+ 
+</div>
+ 
+</body>
+ 
+</html>
